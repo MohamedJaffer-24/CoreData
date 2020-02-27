@@ -8,7 +8,7 @@
 import Foundation
 import CoreData
 
-class Handler {
+public class Handler {
     public func printer() {
         print("Inside:")
     }

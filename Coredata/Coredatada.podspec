@@ -2,8 +2,8 @@
 Pod::Spec.new do |spec|
 
 
-  spec.name         = "CoreDatada"
-  spec.version      = "0.0.2"
+  spec.name         = "Coredatada"
+  spec.version      = "0.0.3"
   spec.summary      = "A suummary to help"
   spec.swift_version = "5.2"
   spec.description  =  "This is Example Framework done by Mj to test all OS Framework working"

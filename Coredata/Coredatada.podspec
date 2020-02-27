@@ -3,23 +3,23 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "CoreDatada"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A suummary to help"
   spec.swift_version = "5.2"
   spec.description  =  "This is Example Framework done by Mj to test all OS Framework working"
 
-  spec.homepage     = "https://github.com/MohamedJaffer-24/CoreData
+  spec.homepage     = "https://github.com/MohamedJaffer-24/CoreData"
  
 
   spec.license      = "MIT"
 
   spec.author             = { "Jaffer" => "jaffer.s@zohocorp.com" }
 
-   spec.ios.deployment_target = "8.0"
-    spec.osx.deployment_target = "10.10"
+  spec.ios.deployment_target = "8.0"
 
 
-  spec.source       = { :git => "https://github.com/MohamedJaffer-24/CoreData", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/MohamedJaffer-24/CoreData.git", :tag => "#{spec.version}" }
 
   spec.source_files  = 'Coredata/**/*.{h,m,swift}'
+  spec.resource = 'Coredata/**/*.xcdatamodeld'
   end

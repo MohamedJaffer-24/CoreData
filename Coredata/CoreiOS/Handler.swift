@@ -9,7 +9,7 @@ import Foundation
 import CoreData
 
 class Handler {
-    public printer() {
+    public func printer() {
         print("Inside:")
     }
         @objc func managedObjectContext() -> NSManagedObjectContext {
